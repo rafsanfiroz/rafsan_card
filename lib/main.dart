@@ -14,7 +14,7 @@ class Mycart extends StatelessWidget {
           children: [
         SafeArea(
         child: CircleAvatar(
-        radius: 60.0,
+        radius: 65.0,
           backgroundImage: AssetImage('images/pic.jpg'),
         ),
       ),
