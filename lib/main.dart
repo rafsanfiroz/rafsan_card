@@ -33,7 +33,6 @@ class Mycart extends StatelessWidget {
             fontWeight: FontWeight.bold,
             color: Colors.teal.shade900,
             letterSpacing: 1.0
-
         ),
       ),
       SizedBox(height: 20.0,width: 150,
@@ -46,12 +45,10 @@ class Mycart extends StatelessWidget {
 
     child: ListTile(
     leading: Icon(Icons.call),
-    title: Text('Rafsan Bin Firoz',style: TextStyle(
-
+    title: Text('01813093761',style: TextStyle(
     fontSize: 24,
     ),),
     ),
-
     ),
     SizedBox(height: 10.0),
     Card(
